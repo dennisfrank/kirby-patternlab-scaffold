@@ -1,0 +1,71 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "name": "Sass",
+      "path": "patternlab/source/assets/scss"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Patterns",
+      "path": "patternlab/source/_patterns"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Data",
+      "path": "patternlab/source/_data"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Assets",
+      "path": "patternlab/source/assets"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Bower",
+      "path": "patternlab/bower_components"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Grunt",
+      "path": "patternlab/grunt"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Public",
+      "path": "patternlab/public"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Dist",
+      "path": "patternlab/dist"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Project",
+      "path": "patternlab"
+    }
+  ],
+  "settings":
+  {
+    "binary_file_patterns": ["*.json","core/*", "public/*", "dist/*", "*.jpg", "node_modules/*"],
+    "todoreview": {
+      "exclude_folders": [
+        "*.git*",
+        "*bower_components*",
+        "*config*",
+        "*core*",
+        "*dist*",
+        "*node_modules*",
+        "*public*",
+        "*vendor*",
+        "*source/images*",
+        "*source/assets/fonts*",
+        "*source/assets/images*",
+        "*_IMPORTS*"
+
+      ]
+    }
+  }
+}

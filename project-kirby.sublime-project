@@ -1,0 +1,47 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "name": "Templates",
+      "path": "kirby/site/templates"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Snippets",
+      "path": "kirby/site/snippets"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Blueprints",
+      "path": "kirby/site/blueprints"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Controllers",
+      "path": "kirby/site/controllers"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Content",
+      "path": "kirby/content"
+    },
+    {
+      "follow_symlinks": true,
+      "name": "Project",
+      "path": "kirby"
+    }
+  ],
+  "settings":
+  {
+    "binary_file_patterns": ["kirby/*", "panel/*", "assets/*"],
+    "todoreview": {
+      "exclude_folders": [
+        "*.git*",
+        "*kirby*",
+        "*panel*",
+        "*assets*",
+      ]
+    }
+  }
+}
