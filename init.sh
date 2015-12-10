@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Remove no longer needed project Git repository
+rm -rf .git/       && \
+rm -rf .gitmodules && \
+
+
 echo "\n\nSetup Pattern Lab"
 echo "=================\n"
 
@@ -10,10 +15,6 @@ git clone https://github.com/dennisfrank/patternlab-scaffolding.git patternlab &
 cd patternlab/ && \
 sh init        && \
 cd ..          && \
-
-# Remove no longer needed project Git repository
-rm -rf .git/       && \
-rm -rf .gitmodules && \
 
 
 echo "\n\nSetup Kirby"
