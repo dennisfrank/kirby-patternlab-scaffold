@@ -39,13 +39,12 @@ git submodule add https://github.com/getkirby/kirby.git kirby/panel  && \
 # Get Git submodule(s)
 git submodule update --init --recursive  &&\
 
-# Delete init files
-rm init-dev  &&\
-rm init      &&\
+# Delete init file
+rm init.sh  &&\
 
 # Initial Git commit
-git add .
-git commit
+git add .  &&\
+git commit -m "Initial commit"  &&\
 
 echo "\n\nDONE!"
 echo "=====\n"
