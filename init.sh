@@ -2,7 +2,6 @@
 
 # Remove no longer needed project files and directories
 rm -rf .git/    && \
-rm .gitmodules  && \
 rm LICENSE      && \
 rm README.md    && \
 
