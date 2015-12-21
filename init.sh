@@ -34,7 +34,7 @@ git init
 
 # Add Kirby core components as Git submodules
 git submodule add https://github.com/getkirby/kirby.git kirby/kirby  && \
-git submodule add https://github.com/getkirby/kirby.git kirby/panel  && \
+git submodule add https://github.com/getkirby/panel.git kirby/panel  && \
 
 # Get Git submodule(s)
 git submodule update --init --recursive  &&\
